@@ -1,105 +1,72 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="icon" href="images/logo.jpg">
-    <title>ANAS BADAWI</title>
+<!DOCTYPE html><!--declaration that defines that this doc is an html doc-->
+<html><!--every code must be under this element-->
+    <head>
+    <title>
+        ANAS 
+    </title>
+    <link rel="icon" href="data:image/png;base64,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">
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body><!-- all other codes must be added under this element-->
+    <div > <h1 style="color:#FFFFFF; background-color:#2C4A73;"><!--header before writing a paragraph,style = color attribute is used for a custom color-->
+        
+        Welcome to ShopName<sub>create your own </sub><!--sub tag is used to write subtext under text-->
+     </h1>
+     <small style="color:#C9D6E3">shop slogan</small><!--small tag is used to write small text, light blue-gray for readability on navy-->
+     <!--pre tag is used when we want to write different lines under the same paragraph--></div>
+   <div style="color:#A8C6E5;"> <pre><strong>About us:</strong> <!-- additional way other than the b tag to make text bold-->
+      <em> info </em> <!--to make the text in italic-->
+       <i>info</i><!--another way to make text in italic-->
+      <hr> <!-- the hr tag is used to put a line after text--></div> 
+<div style="color:#A8C6E5;"><b>What do we offer: 
+  <ol><!--list syntax-->
+    <li style="color:#DDDDDD"></li>
+    <li style="color:#DDDDDD"></li>
+    <li style="color:#DDDDDD"></li>
 
-<style>
-    body {
-        background-color: black;
-        font-size: 300%;
-    }
-    h1, h2, h3 { color: aqua; }
-    p {
-        color: white;
-        border: 2px solid powderblue;
-        padding: 30px;
-        margin: 50px;
-    }
+  </ol>
 
-    nav {
-        margin: 30px 50px;
-    }
+</b> <!--b tag is used to make text bold-->
+</div>
+<div style="color:#DDDDDD;">Our plans
 
-    nav a {
-        color: aqua;
-        margin-right: 40px;
-        text-decoration: none;
-        font-size: 60%;
-    }
+    <table><!--html table syntax-->
+<tr>
+    <th style="color:#FFFFFF;">Plan 1</th> <!--first header for that row-->
+     <th style="color:#FFFFFF;">Plan 2</th> <!-- second header for that row-->
+      <th style="color:#FFFFFF;">Plan 3</th> <!--third header for that row-->
+</tr> <!--table row-->
+<tr>
+    <td style="color:#4ECDC4;">--$</td> <!--content under first header-->
+    <td style="color:#4ECDC4;">--$</td><!--content under second header-->
+    <td style="color:#4ECDC4;" >--$</td><!--content under third header-->
+</tr> <!--table row-->
 
-    nav a:hover {
-        text-decoration: underline;
-    }
-
-    table {
-        border-collapse: separate;
-        border-spacing: 20px;
-        border: 1px solid white;
-    }
-
-    table, th, td {
-        color: white;
-        border: 1px solid white;
-    }
-
-    th, td {
-        padding: 15px;
-    }
-
-    table caption {
-        caption-side: top;
-        text-align: left;
-        font-size: 80%;
-        margin-bottom: 10px;
-    }
-</style>
-</head>
-<body>
-    <h1>Welcome to my personal website, my name is Anas Badawi</h1>
-
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#socials">Socials</a>
-        <a href="#projects">Projects</a>
-    </nav>
-
-    <h2 id="about">ABOUT ME</h2>
-    <p>
-        Hello, I'm Anas Badawi, a Computer Science student with a strong interest in software development and system design.
-        I focus on building reliable, efficient, and well-structured applications while continuously expanding my technical skills. 
-        This website showcases my projects, experience, and ongoing learning in the field of computer science.
-    </p>
-
-    <div class = "socials">
-    <p>Instagram</p>
-    <a href="https://www.instagram.com/anas._.badawi/">
-        <img src="images/insta.jpg" alt="instagram">
-    </a>
-
-    <p>LinkedIn</p>
-    <a href="https://www.linkedin.com/in/anas-badawi-9428332a2/">
-        <img src="images/linkedin.jpg" alt="linkedin">
-    </a>
-    </div>
-    <p id="projects">Projects</p>
-    <table style="width: 100px;">
-        <caption>Here are the projects that I've worked on so far:</caption>
-        <tr>
-            <th colspan="3">MY PROJECTS</th>
-        </tr>
-        <tr>
-            <th>Project 1</th>
-            <td></td>
-        </tr>
-        <tr>
-            <th>Project 2</th>
-            <td></td>
-        </tr>
-        <tr>
-            <th>Project 3</th>
-            <td></td>
-        </tr>
     </table>
-</body>
+    </div>
+<div style="color:#DDDDDD;"><ins>READ TERMS & CONDITIONS</ins> <!--ins tag is used to underline under text-->
+NOTICE <mark>TERMS & CONDITIONS</mark> <!--mark tag is used to highligh text-->
+Dont do this: <del>Do it</del> <!--del tag is used to cross text-->
+
+<hr> </pre>
+     <a href="" class="shop-btn" > Shop Now!</a><!--the "a" tag is used for links ,href is the attribute used to put the link in -->
+     <h2 style="color:#FFFFFF;background-color:#2C4A73;"> Contact<sup>Info</sup> <!--sup tag is used to write text above other text--> </h2>
+     <a href="" class="social-icon-link">
+        <!--img tag used for images, src is used to get the source of that image-->
+        <!--class is used to link with css, here this class is used to adjust width and height of each image (social icon)-->
+        <!--social icon link class is used to create a margin between each icon-->
+   <img src ="images/insta.jpg" alt="Instagram" class="social-icon">
+     </a>
+      <a href="" class="social-icon-link">
+   <img src ="images/tiktok.png" alt="Tiktok" class="social-icon">
+     </a>
+       <a href="mailto:example@example.com" class="social-icon-link">
+   <img src ="images/email.png" alt="Email" class="social-icon">
+     </a>
+       <a href="" class="social-icon-link">
+   <img src ="images/phone.png" alt="Phone Number" class="social-icon">
+     </a>
+     </div>
+
+    </body>
 </html>
