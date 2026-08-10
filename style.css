@@ -1,79 +1,33 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{background-color: black;
-color: white;
-font-family: Arial, sans-serif;
-line-height: 1.6;}
-.container{
-    width:80%;
-    margin:auto;
-}
-h1 ,h2 ,h3 {
-color:aqua;
-margin-bottom:15px;
-}
-h1{
-    text-align: center;
-    margin-top: 30px;
-}
-p{
-    margin: 20px 0;
-    padding: 20px;
-    border: 1px solid #444;
-    border-radius: 10px;
-
-}
-.card{
-    background: #111;
-    padding: 20px;
-    border: radius 10px;
-}
-img{
-    width:100px;
-    border-radius: 10px;
-    transition: 0.3s;
-}
-img:hover {
-  transform: scale(1.1);
+body {
+  background-color: #1E3A5F;  /* navy blue for the whole page */
+  margin: 0;
 }
 
-a:hover {
-  opacity: 0.7;
-}
-    .socials {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-}
-table {
-  width: 100%;
-  margin-top: 20px;
-  border-collapse: collapse;
+div {
+  margin-bottom: 15px;         /* creates a gap between sections so the body background is visible */
 }
 
-th, td {
-  border: 1px solid white;
-  padding: 10px;
-  text-align: left;
+.social-icon {
+  width: 40px;
+  height: 40px;
 }
 
-caption {
+.social-icon-link {
+  display: block;
+  text-decoration: none;
   margin-bottom: 10px;
-  font-size: 14px;
 }
-@media (max-width: 600px) {
-  .container {
-    width: 95%;
-  }
+.shop-btn {
+  display: inline-block;       /* lets padding work properly on a link */
+  background-color: #2A9D8F;   /* teal background */
+  color: #FFFFFF;               /* white text */
+  padding: 10px 20px;           /* space inside the button (top/bottom, left/right) */
+  text-decoration: none;        /* removes the default underline */
+  border-radius: 5px;           /* rounded corners */
+  font-weight: bold;            /* optional, makes text stand out more */
+  transition: background-color 0.3s ease; /* smooth color change on hover */
+}
 
-  img {
-    width: 80px;
-  }
-
-  h1 {
-    font-size: 24px;
-  }
+.shop-btn:hover {
+  background-color: #4ECDC4;   /* brighter teal on hover, pops against navy page */
 }
