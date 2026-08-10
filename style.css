@@ -31,3 +31,13 @@ div {
 .shop-btn:hover {
   background-color: #4ECDC4;   /* brighter teal on hover, pops against navy page */
 }
+#list{
+  color:bisque;
+}
+#offer{
+  color:blanchedalmond;
+}
+#title-header{
+    color:bisque;
+
+}
